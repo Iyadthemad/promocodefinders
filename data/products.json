@@ -1,0 +1,122 @@
+{
+  "source": "Product links and descriptions supplied by the site owner on 2026-09-25. Merchant pages could not be retrieved during this update.",
+  "products": [
+    {
+      "id": "multi-camera-dash-cam",
+      "category": "automotive",
+      "name": "Multi-camera dash cam with Wi-Fi",
+      "url": "https://temu.to/k/pqcic5yeo44",
+      "referencePrice": "$26.49",
+      "currency": null,
+      "verificationStatus": "unverified",
+      "sourceDescription": "360° Panoramic Car Dash Cam, FHD 1080P, 3/4 Channel Front + Left + Right + Rear, 170° Ultra-Wide Front View, Infrared Night Vision, 24-Hour Parking Monitoring, Loop Recording, Built-In Wifi. No Memory Card Or 32GB Memory Card options.",
+      "summary": "A listing to compare when you want to record more than the view through the windscreen. The supplied description mentions several camera configurations, so the selected option matters more than the headline camera count.",
+      "checks": ["Confirm whether the selected kit contains three or four cameras and which directions each camera records.", "Check recording resolution per channel; a headline resolution may not describe every camera at once.", "Compare memory-card inclusion, supported card specification and whether parking recording needs a separately purchased power kit.", "Review mounting space, cable length and app compatibility before ordering."],
+      "skip": "Skip if the listing does not clearly identify the included cameras or how parking recording is powered."
+    },
+    {
+      "id": "front-seat-cover-pair",
+      "category": "automotive",
+      "name": "Front-seat cover pair",
+      "url": "https://temu.to/k/pt7foeevi99",
+      "referencePrice": "$40.05",
+      "currency": null,
+      "verificationStatus": "unverified",
+      "sourceDescription": "Set of 2 Car Covers for Driver And Passenger s, Made of PUPU, Suitable for Various Models.",
+      "summary": "The supplied description appears to describe a pair of covers for the driver and front passenger seats. Confirm that interpretation and the exact material on the retailer page before choosing a variant.",
+      "checks": ["Match the cover shape and dimensions to your seats, including headrests and adjustment controls.", "Confirm compatibility with seat-mounted airbags and any heating or ventilation features using the manufacturer's information.", "Check exactly which pieces the pair includes and how they attach.", "Confirm the material: the supplied wording 'PUPU' is ambiguous and has not been independently verified."],
+      "skip": "Skip if fit or compatibility with the seat's safety features is not documented."
+    },
+    {
+      "id": "wireless-car-display",
+      "category": "automotive",
+      "name": "7-inch wireless in-car display",
+      "url": "https://temu.to/k/pzgj7hskizv",
+      "referencePrice": "$36.71",
+      "currency": null,
+      "verificationStatus": "unverified",
+      "sourceDescription": "7-Inch Wireless In-Car Display with Left-Side Touch Button Function: Car Audio, Full-Screen Touch, Rearview Camera, Car Dashcam, GPS Navigation, Mobile Phone Connection, FM/AUX/USB/TF Interface, Compatible with All Vehicle Models, Without Battery.",
+      "summary": "A separate dashboard display may be worth comparing if you want a phone-connected screen without replacing the existing audio unit. The supplied listing combines display, camera and navigation claims; check which functions and accessories are included in your option.",
+      "checks": ["Confirm phone and operating-system compatibility and the type of wireless connection supported.", "Check whether navigation comes from the connected phone or an included standalone system.", "Confirm whether rear and dash cameras are included, optional or merely supported.", "Check power requirements, mount dimensions and the audio connection your vehicle can use."],
+      "skip": "Do not rely on a claim that it fits every vehicle. Skip if the power, mounting or phone requirements are unclear."
+    },
+    {
+      "id": "jump-starter-inflator",
+      "category": "automotive",
+      "name": "Portable jump starter and tire inflator",
+      "url": "https://temu.to/k/ppkbvndxoba",
+      "referencePrice": "$15.86",
+      "currency": null,
+      "verificationStatus": "unverified",
+      "sourceDescription": "10000A 7-in-1 Multi-functional Emergency Start Power Supply with Air Pump, 150PSL Portable Car Battery Starter, Digital Tire Inflator, Suitable for 2.64 Gallon Gasoline Or 2.38 Gallon Diesel Battery, LED Emergency Light, Car Emergency Tool.",
+      "summary": "This listing is described as combining an emergency starter, inflator and light. Its supplied current, pressure and engine-size wording is not verified and includes ambiguous units; use the actual manufacturer specification rather than the promotional headline.",
+      "checks": ["Confirm the manufacturer, model, battery voltage compatibility and documented operating limits.", "Distinguish advertised peak current from the manufacturer's supported vehicle applications.", "Check the pressure unit, inflator duty cycle, supplied hoses and charging requirements.", "Read the operating instructions and warranty details before deciding whether it suits your vehicle."],
+      "skip": "Skip if the seller cannot provide clear specifications and instructions. This guide is not an endorsement of emergency-start capability."
+    },
+    {
+      "id": "solar-deck-lights",
+      "category": "smart-home",
+      "name": "Solar-powered deck light multipack",
+      "url": "https://temu.to/k/p1ijcnziynz",
+      "referencePrice": "$23.26",
+      "currency": null,
+      "verificationStatus": "unverified",
+      "sourceDescription": "64/32pcs Solar Powered LED Deck Lights, Garden Decor for Outside, Auto On/Off, 12 Hours Continuous Lighting for Outdoor Stairs, Fence, Pathway, Ideal for Commercial Spaces Like Malls, Hotels, And Libraries.",
+      "summary": "Compare these for decorative deck, fence or path lighting. The supplied description mentions both 32- and 64-piece options; check the selected quantity and practical placement before comparing pack value.",
+      "checks": ["Confirm the selected pack count, light colour, dimensions and mounting hardware.", "Check the documented outdoor weather rating rather than relying on a garden photograph.", "Assess whether each installation position receives suitable sunlight for charging.", "Treat the stated runtime as an unverified claim and check the conditions under which it is specified."],
+      "skip": "Skip if dimensions or weather protection are unclear. Do not assume decorative lights provide adequate task or safety lighting."
+    },
+    {
+      "id": "doorbell-with-monitor",
+      "category": "smart-home",
+      "name": "Wireless video doorbell with indoor monitor",
+      "url": "https://temu.to/k/pv2j8vieg5n",
+      "referencePrice": "$40.99",
+      "currency": null,
+      "verificationStatus": "unverified",
+      "sourceDescription": "1 Set, Wireless Video Doorbell, 300,000 Pixel Camera, Wifi-Free, Wiring-Free, Instant Visual Call, Night Vision, Built-In 4.3-Inch Display, Supports External TF Card 128G, Suitable for Home Security, No Network Area.",
+      "summary": "The supplied description presents a doorbell paired with a local indoor screen rather than a conventional Wi-Fi app setup. Confirm how the two units communicate and what recording functions work without a network.",
+      "checks": ["Check indoor-screen and doorbell power arrangements and any rechargeable-battery requirements.", "Confirm the rated range and whether walls or the intended mounting position affect reception.", "Check recording resolution and whether a memory card is included or only supported.", "Confirm whether remote phone viewing is available; do not assume a local monitor implies app access."],
+      "skip": "Skip if the listing does not explain connectivity, recording and power clearly enough for your doorway."
+    },
+    {
+      "id": "robot-vacuum-mop",
+      "category": "smart-home",
+      "name": "M2 Plus robot vacuum and mop listing",
+      "url": "https://temu.to/k/pebxgth3w1h",
+      "referencePrice": "$167.98",
+      "currency": null,
+      "verificationStatus": "unverified",
+      "sourceDescription": "Lefent M2 Plus Robot Vacuum And Mop Combo, 190° PSD Obstacle Avoidance, Laser Lidar Navigation, 40-Day Capacity, Strong Suction, 140-Minute Runtime, Wifi/App/Alexa.",
+      "summary": "Compare this listing against the floor area and obstacles in your home. The supplied brand spelling and navigation details have not been confirmed, so verify the exact manufacturer, model and included dock before relying on the feature list.",
+      "checks": ["Confirm the exact model and whether an emptying dock is included in the selected package.", "Compare device height with furniture clearance and check the stated threshold-crossing limit.", "Check whether mopping is suitable for your floor and how the device handles rugs.", "Review replacement brush, filter and bag availability, app requirements and the basis of runtime or capacity claims."],
+      "skip": "Skip if model identity, consumable availability or the contents of the selected bundle are unclear."
+    },
+    {
+      "id": "rechargeable-motion-lights",
+      "category": "smart-home",
+      "name": "Rechargeable motion-sensor ceiling light pair",
+      "url": "https://temu.to/k/pcdf9ynxgcb",
+      "referencePrice": "$19.38",
+      "currency": null,
+      "verificationStatus": "unverified",
+      "sourceDescription": "2pcs Rechargeable LED Induction Ceiling Light, 3-speed Lighting Mode, Motion Sensor With Remote, Magnetic Design, Easy Installation, 5500mAh Battery, Suitable For Living Room, Kitchen, Bathroom, Corridor, Porch.",
+      "summary": "A rechargeable light pair can be compared for locations where access for charging is practical. The supplied description mentions magnetic mounting, a remote and sensor modes; verify the included parts and the light output for your intended space.",
+      "checks": ["Confirm two lights are included and whether the remote and mounting parts are supplied.", "Check brightness, colour temperature, sensor range and available modes.", "Compare charging access and the stated runtime for the mode you plan to use.", "Confirm the mounting method and documented moisture or outdoor rating before choosing a bathroom or porch location."],
+      "skip": "Skip if the seller cannot document suitability for the mounting surface and conditions where you intend to use it."
+    },
+    {
+      "id": "rotating-mini-projector",
+      "category": "home-entertainment",
+      "name": "Rotating mini projector with remote",
+      "url": "https://temu.to/k/pb88re3u7ak",
+      "referencePrice": "$36.35",
+      "currency": null,
+      "verificationStatus": "unverified",
+      "sourceDescription": "2026 New HD Smart Projector, Supports 4K/Local 1080P, No Screen Required, Bedroom Wall Projection, 180° Rotation Mini Home Theater with Remote.",
+      "summary": "A compact rotating projector is a listing to compare for a small-room video setup. The supplied 'supports 4K/local 1080P' wording does not establish native 4K image resolution; verify the actual display specification and inputs.",
+      "checks": ["Separate native display resolution from supported input or decoded video resolution.", "Check a brightness measurement and its stated method; do not compare unexplained brightness numbers directly.", "Measure the available projection distance and check the image-size range, focus and keystone controls.", "Confirm connection options, audio output and compatibility with your intended streaming device or service."],
+      "skip": "Skip if native resolution, connection options or usable projection distance are missing from the listing."
+    }
+  ]
+}
