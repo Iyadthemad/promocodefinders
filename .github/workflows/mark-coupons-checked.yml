@@ -3,6 +3,11 @@ name: Mark coupons checked today
 on:
   workflow_dispatch:
     inputs:
+      confirmed:
+        description: "I manually checked the selected coupon(s) today"
+        required: true
+        default: false
+        type: boolean
       code:
         description: "Which coupon did you manually check?"
         required: true
@@ -19,6 +24,7 @@ permissions:
 
 jobs:
   record-check:
+    if: ${{ inputs.confirmed }}
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -40,6 +46,11 @@ jobs:
           fi
           git config user.name "PromoCodeFinder Verification Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add promocodefinders-seo-updated/data/coupons.json                   promocodefinders-seo-updated/temu-coupon-tracker/index.html                   promocodefinders-seo-updated/temu-coupon-codes/index.html                   promocodefinders-seo-updated/temu-ale832781/index.html                   promocodefinders-seo-updated/sitemap.xml
+          git add \
+            promocodefinders-seo-updated/data/coupons.json \
+            promocodefinders-seo-updated/temu-coupon-tracker/index.html \
+            promocodefinders-seo-updated/temu-coupon-codes/index.html \
+            promocodefinders-seo-updated/temu-ale832781/index.html \
+            promocodefinders-seo-updated/sitemap.xml
           git commit -m "Record coupon check for ${{ inputs.code }}"
           git push
