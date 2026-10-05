@@ -6,3 +6,9 @@
 
 /assets/*
   Cache-Control: public, max-age=3600, must-revalidate
+
+/data/*
+  Cache-Control: public, max-age=60, must-revalidate
+
+/sitemap.xml
+  Cache-Control: public, max-age=300, must-revalidate
