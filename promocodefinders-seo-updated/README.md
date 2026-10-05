@@ -9,6 +9,8 @@ A fast static affiliate/content website for GitHub + Cloudflare Pages. No WordPr
 - Home
 - Promo Codes directory
 - Temu Coupon Codes (ALE832781, ALI240834, ALI015848)
+- Temu Coupon Tracker with recorded manual check dates
+- Coupon verification methodology
 - Best Temu Finds / product categories
 - Olive Young Promo Code (USEME123)
 - Olive Young Product Finds with MEDIHEAL, UNOVE, Primera and Anua links
@@ -45,16 +47,15 @@ All affiliate/outbound retailer links use `rel="sponsored nofollow noopener nore
 ## Editing
 Everything is plain HTML/CSS/JS. Edit files directly on GitHub; Cloudflare Pages will redeploy after each commit.
 
+## Daily coupon verification workflow
+After you manually check the Temu coupon(s), go to GitHub → Actions → **Mark coupons checked today** → **Run workflow**. Tick the confirmation box, choose `all` or a specific code, and run it. The workflow writes the real UTC check date to `data/coupons.json`, refreshes the visible tracker dates, updates relevant `dateModified` values, and refreshes sitemap `lastmod` entries. It intentionally does not change dates on a timer without a recorded manual check.
+
 ## Important content note
 Update offer wording and dates only when you have checked the campaign information. Do not label a code as guaranteed or verified unless you have evidence for that claim.
 
-## September 24, 2026 content update
-Added /temu-ale832781/, /how-to-use-temu-promo-codes/, /temu-new-vs-existing-users/ and /temu-promo-code-not-working/. Expanded the existing shopping guide instead of creating shallow category pages. All original affiliate URLs and code values are retained.
+## October 5, 2026 verification update
+Added /temu-coupon-tracker/ and /how-we-verify-coupons/. The Temu hub and ALE832781 page now show recorded publisher check dates with explicit account/region caveats. Coupon status lives in a central JSON data source and is surfaced across the tracker and related pages.
 
-Offer status is explicitly unverified; editorial review dates do not represent successful redemption. Structured data uses WebPage and BreadcrumbList without unsupported Product, Offer, rating or FAQ rich-result claims. The sitemap includes all 14 indexable pages; lastmod is omitted to avoid inventing substantive review dates for untouched content.
+Verification dates are not rolled forward automatically on a schedule. A date changes only after the publisher confirms a real manual check through the GitHub Actions workflow. Structured data remains limited to supported WebPage/BreadcrumbList markup, and affiliate links retain `rel="sponsored nofollow noopener noreferrer"`.
 
-Unversioned assets now use a one-hour revalidation policy instead of a year-long immutable cache. After deploying, purge an existing cached CSS/JS response if needed.
-
-No Search Console export was available. Later, compare query/page impressions, clicks, CTR and position to tune titles and guide coverage. Do not auto-roll dates or invent offer validation.
-
-Upload this folder's contents at the existing static site's publish root. This archive is a standalone static site; it is not a verified checkout of the connected GitHub repository. No remote commit or deployment was performed.
+The sitemap now includes the tracker and verification methodology and uses truthful `lastmod` dates only for materially changed or newly verified pages.
