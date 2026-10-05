@@ -1,0 +1,39 @@
+{
+  "updated_via": "manual-verification-workflow",
+  "verification_method": "Manual in-app check by the publisher. Account-specific results can vary by country, device, account history and active Temu campaign.",
+  "coupons": [
+    {
+      "code": "ALE832781",
+      "merchant": "Temu",
+      "status": "checked-by-publisher",
+      "last_checked": "2026-10-05",
+      "audience": "New app users and eligible reinstalled users",
+      "offer": "Up to 30% off eligible purchases + possible coupon bundle advertised up to $100",
+      "region": "Campaign and account dependent",
+      "notes": "The exact discount, coupon values, minimum spend and eligibility can differ by account. Confirm the offer shown in the Temu app before ordering.",
+      "url": "https://promocodefinders.com/temu-ale832781/"
+    },
+    {
+      "code": "ALI240834",
+      "merchant": "Temu",
+      "status": "checked-by-publisher",
+      "last_checked": "2026-10-05",
+      "audience": "Eligible Temu accounts",
+      "offer": "Possible Temu coupon-bundle promotion",
+      "region": "Campaign and account dependent",
+      "notes": "Bundle size and individual coupon conditions can vary. Read the terms shown in the Temu app.",
+      "url": "https://promocodefinders.com/temu-coupon-codes/#ali240834"
+    },
+    {
+      "code": "ALI015848",
+      "merchant": "Temu",
+      "status": "checked-by-publisher",
+      "last_checked": "2026-10-05",
+      "audience": "New or otherwise eligible Temu users",
+      "offer": "Possible gift, new-user or percentage-discount promotion",
+      "region": "Campaign and account dependent",
+      "notes": "Gift and discount campaigns can have purchase, account, device or delivery restrictions. Confirm the live terms in Temu.",
+      "url": "https://promocodefinders.com/temu-coupon-codes/#ali015848"
+    }
+  ]
+}
