@@ -1,0 +1,45 @@
+name: Mark coupons checked today
+
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: "Which coupon did you manually check?"
+        required: true
+        default: "all"
+        type: choice
+        options:
+          - all
+          - ALE832781
+          - ALI240834
+          - ALI015848
+
+permissions:
+  contents: write
+
+jobs:
+  record-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Record verification date
+        run: python scripts/record_coupon_check.py --code "${{ inputs.code }}"
+
+      - name: Commit verification update
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "PromoCodeFinder Verification Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add promocodefinders-seo-updated/data/coupons.json                   promocodefinders-seo-updated/temu-coupon-tracker/index.html                   promocodefinders-seo-updated/temu-coupon-codes/index.html                   promocodefinders-seo-updated/temu-ale832781/index.html                   promocodefinders-seo-updated/sitemap.xml
+          git commit -m "Record coupon check for ${{ inputs.code }}"
+          git push
