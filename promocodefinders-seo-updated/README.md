@@ -59,3 +59,20 @@ Added /temu-coupon-tracker/ and /how-we-verify-coupons/. The Temu hub and ALE832
 Verification dates are not rolled forward automatically on a schedule. A date changes only after the publisher confirms a real manual check through the GitHub Actions workflow. Structured data remains limited to supported WebPage/BreadcrumbList markup, and affiliate links retain `rel="sponsored nofollow noopener noreferrer"`.
 
 The sitemap now includes the tracker and verification methodology and uses truthful `lastmod` dates only for materially changed or newly verified pages.
+
+## Temu keyword ownership
+
+Keep one primary URL for each intent. Supporting pages link to that owner rather than expanding into a second coupon hub.
+
+| Primary URL | Query family | Content role |
+| --- | --- | --- |
+| `/temu-coupon-codes/` | temu coupon codes; temu coupon code 2026; working temu coupon codes; temu promo code | Broad code comparison and offer caveats |
+| `/temu-ale832781/` | ALE832781; ALE832781 temu; temu code ALE832781 | Exact-code details |
+| `/temu-coupon-tracker/` | temu coupon tracker; verified temu coupon codes; temu coupons checked today | Dated publisher verification records, with limits |
+| `/temu-new-vs-existing-users/` | temu coupon code new users; temu existing user coupon; temu reinstall coupon | Account eligibility |
+| `/temu-promo-code-not-working/` | temu promo code not working; why temu coupon does not work | Troubleshooting |
+| `/how-to-use-temu-promo-codes/` | how to use temu coupon code; where to enter temu promo code | Entry and redemption |
+
+Use contextual anchors that describe the destination intent. Link exact ALE832781 details to its dedicated page; link broad comparisons to the hub. Keep the tracker focused on status and dates. “Working,” “verified” and “checked today” searches must receive the actual evidence and its limits, never a guarantee or an automatically refreshed test date. Do not create near-duplicate pages for these query variants.
+
+The October 8, 2026 SEO edit changes page focus and links, not coupon verification. Editorial schema and sitemap modification dates reflect that edit; recorded coupon-check dates and earlier review notices remain unchanged.
