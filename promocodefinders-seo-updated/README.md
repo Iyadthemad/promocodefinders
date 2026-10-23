@@ -59,3 +59,10 @@ Added /temu-coupon-tracker/ and /how-we-verify-coupons/. The Temu hub and ALE832
 Verification dates are not rolled forward automatically on a schedule. A date changes only after the publisher confirms a real manual check through the GitHub Actions workflow. Structured data remains limited to supported WebPage/BreadcrumbList markup, and affiliate links retain `rel="sponsored nofollow noopener noreferrer"`.
 
 The sitemap now includes the tracker and verification methodology and uses truthful `lastmod` dates only for materially changed or newly verified pages.
+
+## Temu Black Friday 2026 campaign
+The dedicated page is /temu-black-friday-2026/. Campaign details were supplied by the publisher, not independently verified. Expected end: December 5, 2026; the campaign's own terms determine availability and cutoff.
+
+After December 5 (or earlier if withdrawn), keep the URL, canonical and sitemap entry. Change the prominent notice to "This Black Friday 2026 campaign has ended", replace campaign CTAs/copy buttons with a link to /temu-coupon-codes/, and label the offer descriptions as historical. Update title, description, Open Graph text and WebPage dateModified to match the ended state; refresh sitemap lastmod only when making that actual update. Update inbound campaign notices to say "Campaign ended". Do not roll the end date forward or label offers verified without new evidence. With JavaScript disabled the page still clearly states the expected end date.
+
+Visible FAQs follow the existing site pattern; structured data remains WebPage/BreadcrumbList, without Offer claims or unsupported promises of FAQ rich results.
