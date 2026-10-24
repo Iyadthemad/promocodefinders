@@ -34,6 +34,28 @@
       "region": "Campaign and account dependent",
       "notes": "Gift and discount campaigns can have purchase, account, device or delivery restrictions. Confirm the live terms in Temu.",
       "url": "https://promocodefinders.com/temu-coupon-codes/#ali015848"
+    },
+    {
+      "code": "ALF423474",
+      "merchant": "Temu",
+      "status": "not-independently-verified",
+      "last_checked": null,
+      "audience": "Eligible new users; other account types unconfirmed",
+      "offer": "Advertised up to 30% off selected items + potential $100 bundle for qualifying new users (not independently verified)",
+      "region": "Region and account dependent",
+      "notes": "Publisher-provided campaign details; no successful independent checkout test or verification date recorded.",
+      "url": "https://promocodefinders.com/temu-alf423474-alb885210/#alf423474"
+    },
+    {
+      "code": "ALB885210",
+      "merchant": "Temu",
+      "status": "not-independently-verified",
+      "last_checked": null,
+      "audience": "Unconfirmed",
+      "offer": "Exact active promotion not confirmed; check app",
+      "region": "Region and account dependent",
+      "notes": "Current offer and eligibility have not been independently checked.",
+      "url": "https://promocodefinders.com/temu-alf423474-alb885210/#alb885210"
     }
   ]
 }
