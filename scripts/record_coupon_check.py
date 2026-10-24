@@ -46,7 +46,7 @@ def update_common_page(text: str) -> str:
 def update_tracker(text: str) -> str:
     text = update_common_page(text)
     for code in selected:
-        pattern = rf'(data-coupon-code="{re.escape(code)}".*?<time data-field="last_checked" datetime=")[^"]+(">)[^<]+(</time>)'
+        pattern = rf'(data-coupon-code="{re.escape(code)}".*?<time data-field="last_checked")(?: datetime="[^"]*")?(>)[^<]*(</time>)'
         text = re.sub(pattern, rf'\g<1> datetime="{today}"\2{human}\3', text, count=1, flags=re.S)
     dates = [c.get("last_checked") for c in data.get("coupons", []) if c.get("last_checked")]
     latest = max(dates) if dates else today
@@ -63,7 +63,7 @@ def update_tracker(text: str) -> str:
 def update_hub(text: str) -> str:
     text = update_common_page(text)
     for code in selected:
-        pattern = rf'(data-coupon-code="{re.escape(code)}".*?<time data-field="last_checked" datetime=")[^"]+(">)[^<]+(</time>)'
+        pattern = rf'(data-coupon-code="{re.escape(code)}".*?<time data-field="last_checked")(?: datetime="[^"]*")?(>)[^<]*(</time>)'
         text = re.sub(pattern, rf'\g<1> datetime="{today}"\2{human}\3', text, flags=re.S)
     dates = [c.get("last_checked") for c in data.get("coupons", []) if c.get("last_checked")]
     latest = max(dates) if dates else today
@@ -81,7 +81,7 @@ def update_ale(text: str) -> str:
     if "ALE832781" not in selected:
         return text
     text = update_common_page(text)
-    pattern = r'(data-coupon-code="ALE832781".*?<time data-field="last_checked" datetime=")[^"]+(">)[^<]+(</time>)'
+    pattern = r'(data-coupon-code="ALE832781".*?<time data-field="last_checked")(?: datetime="[^"]*")?(>)[^<]*(</time>)'
     return re.sub(pattern, rf'\g<1> datetime="{today}"\2{human}\3', text, flags=re.S)
 
 def update_sitemap(text: str) -> str:
