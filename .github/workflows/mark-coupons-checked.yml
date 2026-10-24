@@ -18,6 +18,8 @@ on:
           - ALE832781
           - ALI240834
           - ALI015848
+          - ALF423474
+          - ALB885210
 
 permissions:
   contents: write
