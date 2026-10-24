@@ -10,7 +10,7 @@ SITE = ROOT / "promocodefinders-seo-updated"
 DATA = SITE / "data" / "coupons.json"
 
 parser = argparse.ArgumentParser(description="Record a real coupon check and refresh verification dates.")
-parser.add_argument("--code", default="all", choices=["all", "ALE832781", "ALI240834", "ALI015848"])
+parser.add_argument("--code", default="all", choices=["all", "ALE832781", "ALI240834", "ALI015848", "ALF423474", "ALB885210"])
 args = parser.parse_args()
 
 today = datetime.now(timezone.utc).date().isoformat()
@@ -47,7 +47,7 @@ def update_tracker(text: str) -> str:
     text = update_common_page(text)
     for code in selected:
         pattern = rf'(data-coupon-code="{re.escape(code)}".*?<time data-field="last_checked" datetime=")[^"]+(">)[^<]+(</time>)'
-        text = re.sub(pattern, rf'\g<1>{today}\2{human}\3', text, count=1, flags=re.S)
+        text = re.sub(pattern, rf'\g<1> datetime="{today}"\2{human}\3', text, count=1, flags=re.S)
     dates = [c.get("last_checked") for c in data.get("coupons", []) if c.get("last_checked")]
     latest = max(dates) if dates else today
     ldt = datetime.strptime(latest, "%Y-%m-%d")
@@ -64,7 +64,7 @@ def update_hub(text: str) -> str:
     text = update_common_page(text)
     for code in selected:
         pattern = rf'(data-coupon-code="{re.escape(code)}".*?<time data-field="last_checked" datetime=")[^"]+(">)[^<]+(</time>)'
-        text = re.sub(pattern, rf'\g<1>{today}\2{human}\3', text, flags=re.S)
+        text = re.sub(pattern, rf'\g<1> datetime="{today}"\2{human}\3', text, flags=re.S)
     dates = [c.get("last_checked") for c in data.get("coupons", []) if c.get("last_checked")]
     latest = max(dates) if dates else today
     ldt = datetime.strptime(latest, "%Y-%m-%d")
@@ -82,7 +82,7 @@ def update_ale(text: str) -> str:
         return text
     text = update_common_page(text)
     pattern = r'(data-coupon-code="ALE832781".*?<time data-field="last_checked" datetime=")[^"]+(">)[^<]+(</time>)'
-    return re.sub(pattern, rf'\g<1>{today}\2{human}\3', text, flags=re.S)
+    return re.sub(pattern, rf'\g<1> datetime="{today}"\2{human}\3', text, flags=re.S)
 
 def update_sitemap(text: str) -> str:
     urls = {
