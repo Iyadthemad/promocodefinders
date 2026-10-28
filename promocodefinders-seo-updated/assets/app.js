@@ -14,7 +14,7 @@ function formatDate(value){
   if(!value)return 'Not recorded';
   const d=new Date(value+'T12:00:00Z');
   if(Number.isNaN(d.getTime()))return value;
-  return new Intl.DateTimeFormat('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}).format(d);
+  return new Intl.DateTimeFormat('en-GB',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}).format(d);
 }
 async function loadCouponTracker(){
   const targets=document.querySelectorAll('[data-coupon-code],[data-tracker-last-checked]');

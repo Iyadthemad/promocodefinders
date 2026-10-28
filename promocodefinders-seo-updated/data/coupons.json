@@ -1,12 +1,12 @@
 {
-  "updated_via": "manual-verification-workflow",
+  "updated_via": "publisher-confirmed-manual-check-2026-10-28",
   "verification_method": "Manual in-app check by the publisher. Account-specific results can vary by country, device, account history and active Temu campaign.",
   "coupons": [
     {
       "code": "ALE832781",
       "merchant": "Temu",
       "status": "checked-by-publisher",
-      "last_checked": "2026-10-05",
+      "last_checked": "2026-10-28",
       "audience": "New app users and eligible reinstalled users",
       "offer": "Up to 30% off eligible purchases + possible coupon bundle advertised up to $100",
       "region": "Campaign and account dependent",
@@ -17,7 +17,7 @@
       "code": "ALI240834",
       "merchant": "Temu",
       "status": "checked-by-publisher",
-      "last_checked": "2026-10-05",
+      "last_checked": "2026-10-28",
       "audience": "Eligible Temu accounts",
       "offer": "Possible Temu coupon-bundle promotion",
       "region": "Campaign and account dependent",
@@ -28,7 +28,7 @@
       "code": "ALI015848",
       "merchant": "Temu",
       "status": "checked-by-publisher",
-      "last_checked": "2026-10-05",
+      "last_checked": "2026-10-28",
       "audience": "New or otherwise eligible Temu users",
       "offer": "Possible gift, new-user or percentage-discount promotion",
       "region": "Campaign and account dependent",
@@ -39,22 +39,22 @@
       "code": "ALF423474",
       "merchant": "Temu",
       "status": "not-independently-verified",
-      "last_checked": null,
+      "last_checked": "2026-10-28",
       "audience": "Eligible new users; other account types unconfirmed",
       "offer": "Advertised up to 30% off selected items + potential $100 bundle for qualifying new users (not independently verified)",
       "region": "Region and account dependent",
-      "notes": "Publisher-provided campaign details; no successful independent checkout test or verification date recorded.",
+      "notes": "Publisher-provided campaign details; Publisher checked the code on 28 October 2026; no successful independent checkout redemption was evidenced. Verify the actual offer in your account.",
       "url": "https://promocodefinders.com/temu-alf423474-alb885210/#alf423474"
     },
     {
       "code": "ALB885210",
       "merchant": "Temu",
       "status": "not-independently-verified",
-      "last_checked": null,
+      "last_checked": "2026-10-28",
       "audience": "Unconfirmed",
       "offer": "Exact active promotion not confirmed; check app",
       "region": "Region and account dependent",
-      "notes": "Current offer and eligibility have not been independently checked.",
+      "notes": "Publisher checked the code on 28 October 2026; no successful independent checkout redemption was evidenced. Verify the actual offer in your account.",
       "url": "https://promocodefinders.com/temu-alf423474-alb885210/#alb885210"
     }
   ]
