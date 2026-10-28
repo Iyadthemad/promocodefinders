@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+# Public country, category and coupon guides are crawlable.
 Sitemap: https://promocodefinders.com/sitemap.xml
